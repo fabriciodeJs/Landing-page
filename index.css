@@ -1,0 +1,96 @@
+body{
+   background-image:url(fundo.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+    color: white;
+   font-family: 'Courier New', Courier, monospace;
+   max-width: 1200px;
+   margin: 0% auto;
+   padding: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#titulo{
+    flex-direction: column;
+    font-size: 20px;
+    
+}
+li{
+    display: inline-block;
+    margin: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    padding: 1000;
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    color: blueviolet;
+    transition: 0.3s all;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+h2{
+    font-size: 45px;
+    line-height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1000;
+    white-space: nowrap;
+
+}
+span{
+    color: blueviolet;
+}
+p{
+    font-family: 80px serif;
+    max-width: 600px;
+    font-size: 15px;
+    padding: 2000;
+}
+img{
+    width: 760px;
+    margin-left: 30%;
+}
+#inscrevase{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+}
+#inscrevase:hover{
+    background-color: blueviolet;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form [ type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    font-size: bold;
+}
+form [ type="submit"]:hover{
+   cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+
